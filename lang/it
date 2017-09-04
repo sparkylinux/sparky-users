@@ -1,0 +1,73 @@
+# File di localizzazione in Italiano per Sparky Users
+# Copyright 2015 Carlo Troiani <troianicarlo@gmail.com> 21/11/2015
+# Rilasciato sotto licenza GNU GPL v2
+# Ultimo aggiornamento 21/12/2015
+
+LOCAL1="Gestore SparkyLinux di Utenti, Gruppi e Password"
+LOCAL2="Utenti"
+LOCAL3="Aggiungi un nuovo Utente al sistema.\nScrivi il nome del nuovo utente.\nPuoi utilizzare solamente lettere minuscole e numeri."
+LOCAL4="Aggiungi Utente"
+LOCAL5="Esci"
+LOCAL6="Nessun nuovo utente è stato aggiunto! \nClicca su OK per uscire."
+LOCAL7="L'Utente"
+LOCAL8="già esiste - scegli un altro nome"
+LOCAL9="Fatto! \nL'Utente"
+LOCAL10="è stato aggiunto al sistema."
+LOCAL11="Nome"
+LOCAL12="Descrizione"
+LOCAL13="Aggiungi un Utente ad un Gruppo"
+LOCAL14="Prego, seleziona l'utente da aggiungere ad un gruppo."
+LOCAL15="Esci"
+LOCAL16="Esci senza apportare alcun cambiamento."
+LOCAL17="Prego, seleziona a quale gruppo vuoi aggiungere l'utente."
+LOCAL18="è stato aggiunto al gruppo"
+LOCAL19="."
+LOCAL20="Controlla a quali gruppi appartiene un utente.\nDigita il nome dell'utente di cui vuoi accertare le appartenenze."
+LOCAL21="Accerta l'appartenenza"
+LOCAL22="Nessun utente è stato controllato! \nClicca su OK per uscire."
+LOCAL23="Controlla Gruppi"
+LOCAL24="L'utente appartiene ai seguenti gruppi:"
+LOCAL25="Clicca su OK per uscire."
+LOCAL26="Aggiungi un nuovo Gruppo al sistema.\nIl tuo utente appartiene ai seguenti gruppi:"
+LOCAL27="Digita il nome del Gruppo che vorresti aggiungere al sistema."
+LOCAL28="Aggiungi Gruppo"
+LOCAL29="Nessun gruppo è stato aggiunto! \nClicca su OK per uscire."
+LOCAL30="Il Gruppo"
+LOCAL31="già esiste - scegli un altro nome."
+LOCAL32="il nuovo gruppo:"
+LOCAL33="è stato correttamente aggiunto al sistema.\nClicca su OK per uscire."
+LOCAL34="Rimuovi un Utente da un Gruppo"
+LOCAL35="Prego, seleziona quale utente vuoi rimuovere da un gruppo."
+LOCAL36="Prego, seleziona da quale gruppo vuoi rimuovere l'utente."
+LOCAL37="è stato rimosso dal gruppo"
+LOCAL38="Cancella Utente"
+LOCAL39="Prego, seleziona l'utente da rimuovere dal sistema."
+LOCAL40="è stato rimosso dal sistema."
+
+### sparky-users.desktop file to be translated too
+# Name[it_IT]=Utenti, Gruppi e Passwords
+# Comment[it_IT]=Gestisci gli Utenti, i Gruppi e le Password del Sistema
+
+### groupadd.desktop file to be translated too
+# Name[it_IT]=Aggiungi Gruppo
+# Comment[it_IT]=Aggiungi un nuovo gruppo al sistema
+
+### user-add.desktop file to be translated too
+# Name[it_IT]=Aggiungi Utente
+# Comment[it_IT]=Aggiungi un nuovo utente al sistema
+
+### user-del.desktop file to be translated too
+# Name[it_IT]=Rimuovi Utente
+# Comment[it_IT]=Cancella un utente dal sistema
+
+### user-add-to-group.desktop file to be translated too
+# Name[it_IT]=Aggiungi Utente al Gruppo
+# Comment[it_IT]=Aggiungi un utente ad uno dei gruppi del sistema
+
+### check-groups.desktop file to be translated too
+# Name[it_IT]=Controlla i Gruppi
+# Comment[it_IT]=Controlla a quali gruppi appartiene un utente
+
+### remuserfromgroup.desktop file to be translated too
+# Name[it_IT]=Rimuovi Utente da Gruppo
+# Comment[it_IT]=Rimuovi un utente da un gruppo

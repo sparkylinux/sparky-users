@@ -1,0 +1,75 @@
+#!/bin/bash
+
+# Remove User Delete Tool Copyright 2009 by Tony Brijeski under the GPL V2
+# Remastered for SparkyLinux by pavroo <pavroo@onet.eu> 2013/11/02
+# Last update 2016/05/24
+# Copyright 2013, 2014, 2015, 2016 under the GNU GPL2 License
+
+# get default's locale file
+DEFLOCDIR="/usr/share/sparky/sparky-users"
+if [ "`cat /etc/default/locale | grep de_DE`" != "" ]; then
+. $DEFLOCDIR/de
+elif [ "`cat /etc/default/locale | grep es_AR`" != "" ]; then
+. $DEFLOCDIR/es
+elif [ "`cat /etc/default/locale | grep fr_FR`" != "" ]; then
+. $DEFLOCDIR/fr
+elif [ "`cat /etc/default/locale | grep it_IT`" != "" ]; then
+. $DEFLOCDIR/it
+elif [ "`cat /etc/default/locale | grep ja_JP`" != "" ]; then
+. $DEFLOCDIR/ja
+elif [ "`cat /etc/default/locale | grep pl_PL`" != "" ]; then
+. $DEFLOCDIR/pl
+elif [ "`cat /etc/default/locale | grep pt_BR`" != "" ]; then
+. $DEFLOCDIR/pt_BR
+elif [ "`cat /etc/default/locale | grep pt_PT`" != "" ]; then
+. $DEFLOCDIR/pt_PT
+elif [ "`cat /etc/default/locale | grep ru_RU`" != "" ]; then
+. $DEFLOCDIR/ru
+else
+. $DEFLOCDIR/en
+fi
+
+testroot="`whoami`"
+
+if [ "$testroot" != "root" ]; then
+	/usr/bin/remsu $0 &
+fi
+
+DIALOG="`which zenity` --width=400 --height=300 --window-icon=gtk-remove"
+TITLE="--title="
+TEXT="--text="
+ENTRY="--entry "
+ENTRYTEXT="--entry-text "
+MENU="--list --column=$LOCAL11 --column=$LOCAL12"
+YESNO="--question "
+MSGBOX="--info "
+PASSWORD="--entry --hide-text "
+TITLETEXT="$LOCAL38"
+
+j="0"
+i="1000"
+while [ "`cat /etc/passwd | awk -F ":" '{print $3}' | grep $i`" != "" ]; do
+for i in $(seq 1000 1 2000); do
+
+if [ "`cat /etc/passwd | awk -F ":" '{print $3}' | grep $i`" != "" ]; then
+  userchoice[$j]="`grep $i /etc/passwd | awk -F ":" '{print $1}'`"
+  
+  j=`expr $j + 1`
+fi
+
+done
+done
+
+USERNAME=`$DIALOG $TITLE"$TITLETEXT" $MENU $TEXT"\n$LOCAL39" Exit "$LOCAL15" ${userchoice[0]} ${userchoice[0]} ${userchoice[1]} ${userchoice[1]} ${userchoice[2]} ${userchoice[2]} ${userchoice[3]} ${userchoice[3]} ${userchoice[4]} ${userchoice[4]} ${userchoice[5]} ${userchoice[5]} ${userchoice[6]} ${userchoice[6]} ${userchoice[7]} ${userchoice[7]} ${userchoice[8]} ${userchoice[8]} ${userchoice[9]} ${userchoice[9]}`
+
+if [ "$USERNAME" = "Exit" ]; then
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"\n\n$LOCAL16"
+	exit 1
+fi
+
+userdel -r $USERNAME
+groupdel $USERNAME
+
+$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL7 $USERNAME $LOCAL40"
+
+exit 0

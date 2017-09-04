@@ -1,0 +1,73 @@
+# English localization file for Sparky Users.
+# Copyright 2015 Pawel "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/11
+# Under the GNU GPL v2
+# Last update 2016/02/05
+
+LOCAL1="SparkyLinux Users, Groups and Password Manager"
+LOCAL2="Users"
+LOCAL3="This lets you add a new user to the system.\nType a nick name of the new user.\nUse small leters and numbers only."
+LOCAL4="Add User"
+LOCAL5="Exit"
+LOCAL6="No user has been added! \nClick OK to quit."
+LOCAL7="User"
+LOCAL8="already exists - choose another one"
+LOCAL9="Done! \nNew user"
+LOCAL10="has been added to the system."
+LOCAL11="Name"
+LOCAL12="Description"
+LOCAL13="Add User to Group"
+LOCAL14="Please select which user you want to add to a group."
+LOCAL15="Quit"
+LOCAL16="Exiting without making any changes."
+LOCAL17="Please select which group you want to add the user to."
+LOCAL18="has been added to the"
+LOCAL19="group."
+LOCAL20="This lets you check which group a user belongs to.\nType a nick name of existing user you'd like to check."
+LOCAL21="Check Groups"
+LOCAL22="No user has been checked! \nClick OK to quit."
+LOCAL23="Check Groups"
+LOCAL24="The user belongs to the following groups:"
+LOCAL25="Click OK to quit."
+LOCAL26="This lets you add a new group to the system.\nYou belong to the following groups:"
+LOCAL27="Type a name of a group you'd like to add to the system."
+LOCAL28="Add Group"
+LOCAL29="No group has been added! \nClick OK to quit."
+LOCAL30="Group"
+LOCAL31="already exists - choose another one."
+LOCAL32="The new group:"
+LOCAL33="has been added to the system.\nClick OK to quit."
+LOCAL34="Remove User from Group"
+LOCAL35="Please select which user you want to remove from a group."
+LOCAL36="Please select which group you want to remove the user from."
+LOCAL37="has been removed from the"
+LOCAL38="Delete User"
+LOCAL39="Please select a user to remove from the system."
+LOCAL40="has been removed from the system."
+
+### sparky-users.desktop file to be translated to
+# Name[en_US]=Users, Groups and Passwords
+# Comment[en_US]=Manage Users, Groups and Passwords of the System
+
+### groupadd.desktop file to be translated to
+# Name[en_US]=Add Group
+# Comment[en_US]=Add a new group to the system
+
+### user-add.desktop file to be translated to
+# Name[en_US]=Add User
+# Comment[en_US]=Add a new user to the system
+
+### user-del.desktop file to be translated to
+# Name[en_US]=Remove User
+# Comment[en_US]=Remove an user from the system
+
+### user-add-to-group.desktop file to be translated to
+# Name[en_US]=Add User To Group
+# Comment[en_US]=Add an user to the system's group
+
+### check-groups.desktop file to be translated to
+# Name[en_US]=Check Groups
+# Comment[en_US]=Check user's groups he/she belongs to
+
+### remuserfromgroup.desktop file to be translated to
+# Name[en_US]=Remove User From Group
+# Comment[en_US]=Remove user from a group

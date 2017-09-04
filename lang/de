@@ -1,0 +1,74 @@
+# English localization file for Sparky Users.
+# Copyright 2015 Pawel "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/11
+# Under the GNU GPL v2
+# Last update 2016/02/28
+# German translation by lunatic
+
+LOCAL1="SparkyLinux Benutzer, Gruppen und Passwortmanager"
+LOCAL2="Benutzer"
+LOCAL3="Dem System einen neuen Benutzer hinzufügen.\nGeben Sie den Spitznamen des neuen Benutzers ein.\nBenutzen Sie nur Kleinbuchstaben und Zahlen."
+LOCAL4="Benutzer hinzufügen"
+LOCAL5="Verlassen"
+LOCAL6="Es wurde kein Benutzer hinzugefügt! \nOK klicken fürs Beenden."
+LOCAL7="Benutzer"
+LOCAL8="bereits vorhanden - wählen Sie einen anderen"
+LOCAL9="Fertig! \nNeuer Benutzer"
+LOCAL10="wurde dem System hinzugefügt."
+LOCAL11="Name"
+LOCAL12="Beschreibung"
+LOCAL13="Einer Gruppe einen Benutzer hinzufügen"
+LOCAL14="Bitte wählen, welchen Benutzer Sie einer Gruppe hinzufügen wollen."
+LOCAL15="Beenden"
+LOCAL16="Beenden ohne irgendwelche Änderungen durchzuführen"
+LOCAL17="Bitte wählen Sie, welcher Gruppe Sie einen Benutzer hinzufügen wollen."
+LOCAL18="wurde hinzugefügt zur"
+LOCAL19="Gruppe."
+LOCAL20="Erlaubt die Prüfung, zu welcher Gruppe ein Benutzer gehört.\nGeben Sie den Spitznamen eines bestehenden Benutzers ein, den Sie prüfen wollen."
+LOCAL21="Prüfe die Gruppen"
+LOCAL22="Es wurde kein Benutzer geprüft! \nOK klicken fürs Beenden."
+LOCAL23="Gruppen prüfen"
+LOCAL24="Der Benutzer gehört zu folgenden Gruppen:"
+LOCAL25="OK klicken fürs Beenden."
+LOCAL26="Erlaubt das Hinzufügen einer neuen Gruppe zum System.\nSie gehören folgenden Gruppen an:"
+LOCAL27="Tippen Sie den Namen einer Gruppe ein, die Sie dem System hinzufügen wollen."
+LOCAL28="Gruppe hinzufügen"
+LOCAL29="Es wurde keine Gruppe hinzugefügt! \nOK klicken fürs Beenden."
+LOCAL30="Gruppe"
+LOCAL31="besteht schon - wählen Sie eine andere."
+LOCAL32="Die neue Gruppe:"
+LOCAL33="wurde dem System hinzugefügt.\nOK klicken fürs Beenden."
+LOCAL34="Entferne Benutzer aus einer Gruppe"
+LOCAL35="Bitte wählen, welchen Benutzer Sie aus einer Gruppe entfernen wollen."
+LOCAL36="Bitte wählen, aus welcher Gruppe Sie den Benutzer entfernen wollen."
+LOCAL37="wurde entfernt von"
+LOCAL38="Benutzer löschen"
+LOCAL39="Bitte einen Benutzer wählen, der vom System entfernt werden soll."
+LOCAL40="wurde vom System entfernt."
+
+### sparky-users.desktop file to be translated to
+# Name[de_DE]=Benutzer, Gruppen und Passwörter
+# Comment[de_DE]=Verwalte Benutzer, Gruppen und Passwörter des Systems
+
+### groupadd.desktop file to be translated to
+# Name[de_DE]=Gruppe hinzufügen
+# Comment[de_DE]=Füge dem System eine neue Gruppe hinzu
+
+### user-add.desktop file to be translated to
+# Name[de_DE]=Benutzer hinzufügen
+# Comment[de_DE]=Füge dem System einen neuen Benutzer hinzu
+
+### user-del.desktop file to be translated to
+# Name[de_DE]=Benutzer entfernen
+# Comment[de_DE]=Entferne Benutzer vom System
+
+### user-add-to-group.desktop file to be translated to
+# Name[de_DE]=Benutzer einer Gruppe hinzufügen
+# Comment[de_DE]=Füge Benutzer der Systemgruppe hinzu
+
+### check-groups.desktop file to be translated to
+# Name[de_DE]=Gruppen prüfen
+# Comment[de_DE]=Prüfe zu welcher Benutzergruppe er/sie gehört
+
+### remuserfromgroup.desktop file to be translated to
+# Name[de_DE]=Benutzer aus einer Gruppe entfernen
+# Comment[de_DE]=Entferne einen Benutzer aus einer Gruppe

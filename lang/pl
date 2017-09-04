@@ -1,0 +1,74 @@
+# Polish localization file for Sparky Users.
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/11
+# Under the GNU GPL v2
+# Last update 2015/11/11
+# Translated to Polish by pavroo
+
+LOCAL1="SparkyLinux Menadżer Użytkowników, Grup i Haseł"
+LOCAL2="Użytkownicy"
+LOCAL3="Dodawanie nowego użytkownika systemu.\nWpisz nazwę nowego użytkownika.\nUżyj tylko małych liter i liczb."
+LOCAL4="Dodaj użytkownika"
+LOCAL5="Zakończ"
+LOCAL6="Żaden użytkownik nie został dodany! \nKliknij OK aby zakończyć."
+LOCAL7="Użytkownik"
+LOCAL8="już istnieje - wybież inną nazwę"
+LOCAL9="Zrobione! \nNowy użytkownik"
+LOCAL10="został dodany do systemu."
+LOCAL11="Nazwa"
+LOCAL12="Opis"
+LOCAL13="Dodaj Użytkownika do Grupy"
+LOCAL14="Proszę wybrać użytkownika, którego chcesz dodać do grupy."
+LOCAL15="Zakończ"
+LOCAL16="Wyjście bez żadnych zmian."
+LOCAL17="Proszę wybrać grupę, do której chcesz dodać użytkownika."
+LOCAL18="został dodany do grupy"
+LOCAL19=""
+LOCAL20="Sprawdzenie grup, do których należy użytkownik.\nWpisz nazwę istniejącego użytkownika, którego chcesz sprawdzić."
+LOCAL21="Sprawdź Grupy"
+LOCAL22="Żaden użytkownik nie został sprawdzony! \nKliknij OK aby zakończyć."
+LOCAL23="Sprawdź Grupy"
+LOCAL24="Użytkownik należy do następujących grup:"
+LOCAL25="Kliknij OK aby zakończyć."
+LOCAL26="Dodanie nowej grupy do systemu.\nNależysz do następujących grup:"
+LOCAL27="Wpisz nazwę grupy, którą chcesz dodać do systemu."
+LOCAL28="Dodaj Grupę"
+LOCAL29="Żadna grupa nie została dodana! \nKliknij OK aby zakończyć."
+LOCAL30="Grupa"
+LOCAL31="już istnieje - wybierz inną."
+LOCAL32="Nowa grupa:"
+LOCAL33="została dodana do systemu.\nKliknij OK aby zakończyć."
+LOCAL34="Usuń Użytkownika z Grupy"
+LOCAL35="Proszę wybrać użytkownika, którego chcesz usunąć z grupy."
+LOCAL36="Proszę wybrać grupę, z której chcesz usunąć użytkownika."
+LOCAL37="został usunięty z grupy"
+LOCAL38="Usuń Użytkownika"
+LOCAL39="Proszę wybrać użytkownika, którego chcesz usunąć z systemu."
+LOCAL40="został usunięty z systemu."
+
+### sparky-users.desktop file, również do przetłumaczenia
+# Name[pl_PL]=Użytkownicy, Grupy i Hasła
+# Comment[pl_PL]=Zarządzaj użytkownikami, grupami i hasłami systemowymi
+
+### groupadd.desktop file, również do przetłumaczenia
+# Name[pl_PL]=Dodaj Grupę
+# Comment[pl_PL]=Dodaj nową grupę do systemu
+
+### user-add.desktop file, również do przetłumaczenia
+# Name[pl_PL]=Dodaj Użytkownika
+# Comment[pl_PL]=Dodaj nowego użytkownika systemu
+
+### user-del.desktop file, również do przetłumaczenia
+# Name[pl_PL]=Usuń Użytkownika
+# Comment[pl_PL]=Usuń użytkownika z systemu
+
+### user-add-to-group.desktop file, również do przetłumaczenia
+# Name[pl_PL]=Dodaj Użytkownika Do Grupy
+# Comment[pl_PL]=Dodaj użytkownika do grupy systemowej
+
+### check-groups.desktop file, również do przetłumaczenia
+# Name[pl_PL]=Sprawdź Grupy
+# Comment[pl_PL]=Sprawdź do jakich grup należy użytkownik
+
+### remuserfromgroup.desktop file, również do przetłumaczenia
+# Name[pl_PL]=Usuń Użytkownika z Grupy
+# Comment[pl_PL]=Usuń użytkownika z grupy

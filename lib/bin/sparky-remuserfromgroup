@@ -1,0 +1,90 @@
+#!/bin/bash
+
+# Remove User from Group Tool Copyright 2009 by Tony Brijeski under the GPL V2
+# Remastered for SparkyLinux by pavroo <pavroo@onet.eu> 2013/11/02
+# Last update 2016/05/24
+# Copyright 2013, 2014, 2015, 2016 under the GNU GPL2 License
+
+# get default's locale file
+DEFLOCDIR="/usr/share/sparky/sparky-users"
+if [ "`cat /etc/default/locale | grep de_DE`" != "" ]; then
+. $DEFLOCDIR/de
+elif [ "`cat /etc/default/locale | grep es_AR`" != "" ]; then
+. $DEFLOCDIR/es
+elif [ "`cat /etc/default/locale | grep fr_FR`" != "" ]; then
+. $DEFLOCDIR/fr
+elif [ "`cat /etc/default/locale | grep it_IT`" != "" ]; then
+. $DEFLOCDIR/it
+elif [ "`cat /etc/default/locale | grep ja_JP`" != "" ]; then
+. $DEFLOCDIR/ja
+elif [ "`cat /etc/default/locale | grep pl_PL`" != "" ]; then
+. $DEFLOCDIR/pl
+elif [ "`cat /etc/default/locale | grep pt_BR`" != "" ]; then
+. $DEFLOCDIR/pt_BR
+elif [ "`cat /etc/default/locale | grep pt_PT`" != "" ]; then
+. $DEFLOCDIR/pt_PT
+elif [ "`cat /etc/default/locale | grep ru_RU`" != "" ]; then
+. $DEFLOCDIR/ru
+else
+. $DEFLOCDIR/en
+fi
+
+testroot="`whoami`"
+
+if [ "$testroot" != "root" ]; then
+	/usr/bin/remsu $0 &
+fi
+
+DIALOG="`which zenity` --width=400 --height=300 --window-icon=cancel"
+TITLE="--title="
+TEXT="--text="
+ENTRY="--entry "
+ENTRYTEXT="--entry-text "
+MENU="--list --column=$LOCAL11 --column=$LOCAL12"
+YESNO="--question "
+MSGBOX="--info "
+PASSWORD="--entry --hide-text "
+TITLETEXT="$LOCAL34"
+
+for LINE1 in `grep '^[^:]*:[^:]*:[1-9][0-9][0-9][0-9]:' /etc/passwd | awk -F ":" '{print $1}'`; do
+CHOICE1="$CHOICE1 $LINE1 $LINE1"
+done
+
+USERNAME=`$DIALOG $TITLE"$TITLETEXT" $MENU $TEXT"\n$LOCAL35" Exit "$LOCAL15" root root $CHOICE1`
+
+if [ "$USERNAME" = "Exit" ]; then
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"\n\n$LOCAL16"
+	exit 1
+fi
+
+for LINE2 in `grep ":" /etc/group | awk -F ":" '{print $1}'`; do
+
+if [ "`grep $LINE2 /etc/group | grep $USERNAME`" != "" -a "$LINE2" != "root" -a "$LINE2" != "$USERNAME" ]; then
+	
+	if [ "$CURGROUP" = "" ]; then
+		CURGROUP="$LINE2"
+	else
+		CURGROUP="$CURGROUP,$LINE2"
+	fi
+
+	CHOICE2="$CHOICE2 $LINE2 $LINE2"
+fi
+done
+
+
+GROUPCHOICE=`$DIALOG $TITLE"$TITLETEXT" $MENU $TEXT"\n$LOCAL36" Exit "$LOCAL15" $CHOICE2`
+
+if [ "$GROUPCHOICE" = "Exit" ]; then
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"\n\n$LOCAL16"
+	exit 1
+fi
+
+
+CURGROUP=`echo $CURGROUP | sed -r "s/$GROUPCHOICE//" | sed -r "s/,,/,/" | sed -r "s/^,//" | sed -r "s/,$//"`
+
+usermod -G $CURGROUP $USERNAME 
+
+
+$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL7 $USERNAME $LOCAL37 $GROUPCHOICE $LOCAL19"
+
+exit 0

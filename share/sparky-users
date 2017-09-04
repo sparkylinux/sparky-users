@@ -1,0 +1,1 @@
+?package(sparky-users):needs="X11" section="Applications/System"        title="Users and Groups" command="/usr/bin/sparky-users" icon="contact-new"
