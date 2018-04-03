@@ -24,7 +24,7 @@ grep
 gawk
 sparky-passwdchange
 sparky-remsu
-sparky-xterm
+sparky-xterm (>= 0.2.0)
 yad
 zenity
 

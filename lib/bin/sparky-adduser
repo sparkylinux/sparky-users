@@ -1,9 +1,9 @@
 #!/bin/bash
-#
-#  Sparky Add User is a simply tool which lets you add new user to the system
-#  Created by Paweł "pavroo" Pijanowski 2013/Oct/28
-#  Last updated 2016/05/24
-#  Copyright 2013, 2014, 2015, 2016 under the GNU GPL2 License
+
+# Sparky Add User is a simply tool which lets you add new user to the system
+# Created by Paweł "pavroo" Pijanowski 2013/Oct/28
+# Copyright 2013-2018 under the GNU GPL2 License
+# Last updated 2018/04/01
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-users"
@@ -30,7 +30,6 @@ else
 fi
 
 testroot="`whoami`"
-
 if [ "$testroot" != "root" ]; then
 	/usr/bin/remsu $0 &
 fi
@@ -42,10 +41,11 @@ ENTRY="--entry"
 OKEXIT="--button=Ok:0 --button=$LOCAL5:1"
 OKBUTTON="--button=Ok:0"
 
-if [ -f /opt/sparky/sparky-xterm ]; then
-. /opt/sparky/sparky-xterm
+if [ -f /usr/bin/sparky-xterm ];then
+	SPARKYXTERM="/usr/bin/sparky-xterm"
 else
-SPARKYXTERM="x-terminal-emulator"
+	echo "sparky-xterm is missing... Exiting..."
+	exit 1
 fi
 
 USER1=`$DIALOG $TEXT"$LOCAL3" $TITLE"$LOCAL4" $ENTRY $OKEXIT`
@@ -59,7 +59,7 @@ elif [ "`grep $USER1 /etc/passwd`" != "" ]; then
 	exit 0
 
 else
-	$SPARKYXTERM -e "adduser $USER1"
+	$SPARKYXTERM "adduser $USER1"
 	adduser $USER1 audio
 	adduser $USER1 video
 	adduser $USER1 cdrom
@@ -71,3 +71,5 @@ else
 	$DIALOG $TEXT"$LOCAL9 $USER1 $LOCAL10" $TITLE"$LOCAL4" $OKBUTTON
 	exit 0
 fi
+
+exit 0

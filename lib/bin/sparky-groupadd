@@ -1,9 +1,9 @@
 #!/bin/bash
-#
-#  Sparky Add Group is a simply tool which lets you add a new group to the system
-#  Created by Paweł "pavroo" Pijanowski 2013/Oct/28
-#  Last updated 2016/05/24
-#  Copyright 2013, 2014, 2015, 2016 under the GNU GPL2 License
+
+# Sparky Add Group is a simply tool which lets you add a new group to the system
+# Created by Paweł "pavroo" Pijanowski 2013/Oct/28
+# Copyright 2013-2018 under the GNU GPL2 License
+# Last updated 2018/04/01
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-users"
@@ -30,7 +30,6 @@ else
 fi
 
 testroot="`whoami`"
-
 if [ "$testroot" != "root" ]; then
 	/usr/bin/remsu $0 &
 fi
@@ -60,3 +59,5 @@ else
 	exit 0
 
 fi
+
+exit 0
