@@ -1,0 +1,66 @@
+# Indonesian localization file for Sparky Users.
+# Copyright 2015 Pawel "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/11
+# Under the GNU GPL v2
+# Last update 2018/08/05 by pavroo
+# Translated to Indonesian by les kompie
+LOCAL1="Manajer User, Grup, dan Password SparkyLinux"
+LOCAL2="User"
+LOCAL3="Ini untuk menambahkan user baru ke sistem.\nKetik nama panggilan user baru.\nPakai huruf kecil dan angka saja."
+LOCAL4="Tambah User"
+LOCAL5="Keluar"
+LOCAL6="Tidak ada user yang ditambahkan!\nKlik OK untuk keluar."
+LOCAL7="User"
+LOCAL8="sudah ada - pilih yang lain"
+LOCAL9="Selesai! \nUser baru"
+LOCAL10="sudah ditambahkan ke sistem."
+LOCAL11="Nama"
+LOCAL12="Deskripsi"
+LOCAL13="Tambah User ke Grup"
+LOCAL14="Pilih user mana yang mau anda tambahkan ke grup."
+LOCAL15="Keluar"
+LOCAL16="Keluar saja, tanpa melakukan perubahan apa pun."
+LOCAL17="Pilih ke grup mana anda mau menambahkan user."
+LOCAL18="sudah ditambahkan ke"
+LOCAL19="grup."
+LOCAL20="Ini untuk memeriksa di grup mana user berada.\nKetik nama panggilan user yang sudah ada, yang mau anda periksa."
+LOCAL21="Periksa Grup"
+LOCAL22="Tidak ada User yang diperiksa! \nKlik OK untuk keluar."
+LOCAL23="Periksa Grup"
+LOCAL24="User termasuk dalam grup berikut:"
+LOCAL25="Klik OK untuk keluar."
+LOCAL26="Ini untuk menambahkan grup baru ke sistem. \nAnda termasuk dalam grup berikut:"
+LOCAL27="Ketik nama grup yang mau anda tambahkan ke sistem."
+LOCAL28="Tambah Grup"
+LOCAL29="Tidak ada grup yang ditambahkan! \nKlik OK untuk keluar."
+LOCAL30="Grup"
+LOCAL31="sudah ada - pilih yang lain."
+LOCAL32="Grup baru:"
+LOCAL33="sudah ditambahkan ke sistem. \nKlik OK untuk keluar."
+LOCAL34="Hapus User dari Grup"
+LOCAL35="Pilih user mana yang mau anda hapus dari grup."
+LOCAL36="Pilih dari grup mana anda mau keluarkan user."
+LOCAL37="sudah dihapus dari"
+LOCAL38="Hapus User"
+LOCAL39="Pilih user yang akan dihapus dari sistem."
+LOCAL40="sudah dihapus dari sistem."
+### sparky-users.desktop file to be translated to
+# Name[id_ID]=User, Grup dan Password
+# Comment[id_ID]=Manajemen User, Grup dan Password Sistem
+### groupadd.desktop file to be translated to
+# Name[id_ID]=Tambah Grup
+# Comment[id_ID]=Tambahkan grup baru ke sistem
+### user-add.desktop file to be translated to
+# Name[id_ID]=Tambah User
+# Comment[id_ID]=Tambahkan user baru ke sistem
+### user-del.desktop file to be translated to
+# Name[id_ID]=Hapus User
+# Comment[id_ID]=Hapus user dari sistem
+### user-add-to-group.desktop file to be translated to
+# Name[id_ID]=Tambah User Ke Grup
+# Comment[id_ID]=Tambahkan user ke grup sistem
+### check-groups.desktop file to be translated to
+# Name[id_ID]=Periksa Grup
+# Comment[id_ID]=Periksa dalam grup mana user termasuk
+### remuserfromgroup.desktop file to be translated to
+# Name[id_ID]=Hapus User Dari Grup
+# Comment[id_ID]=Hapus user dari grup

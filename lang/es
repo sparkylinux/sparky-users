@@ -1,8 +1,7 @@
 # Archivo de localización en español para Sparky Users.
 # Copyright 2015 Fernando "seacat" Velo <seacat.linux@gmail.com> 2015/12/27
 # Bajo la licencia GNU GPL v2
-# Ultima actualización 2015/12/30
-
+# Last update 2018/08/05 by pavroo
 LOCAL1="Administrador de usuarios, grupos y contraseñas de SparkyLinux"
 LOCAL2="Usuarios"
 LOCAL3="Esto le permite agregar un nuevo usuario al sistema.\nEscriba un apodo para el nuevo usuario.\nUse minúsculas y números solamente."
@@ -43,31 +42,24 @@ LOCAL37="se eliminó del"
 LOCAL38="Eliminar usuario"
 LOCAL39="Por favor, elija el usuario a eliminar del sistema."
 LOCAL40="se eliminó del sistema."
-
 ### sparky-users.desktop file to be translated too
 # Name[es_AR]=Usuarios, grupos y contraseñas
 # Comment[es_AR]=Administre los usuarios, grupos y contraseñas del sistema
-
 ### groupadd.desktop file to be translated too
 # Name[es_AR]=Agregar grupo
 # Comment[es_AR]=Agregue un nuevo grupo al sistema
-
 ### user-add.desktop file to be translated too
 # Name[es_AR]=Agregar usuario
 # Comment[es_AR]=Agregue un nuevo usuario al sistema
-
 ### user-del.desktop file to be translated too
 # Name[es_AR]=Eliminar usuario
 # Comment[es_AR]=Elimine un usuario del sistema
-
 ### user-add-to-group.desktop file to be translated too
 # Name[es_AR]=Agregar un usuario a un grupo
 # Comment[es_AR]=Agregue un usuario al grupo del sistema
-
 ### check-groups.desktop file to be translated too
 # Name[es_AR]=Verificar grupos
 # Comment[es_AR]=Verifique si él/ella pertenece a un grupo de usuarios
-
 ### remuserfromgroup.desktop file to be translated too
 # Name[es_AR]=Eliminar un usuario de un grupo
 # Comment[es_AR]=Elimine un usuario de un grupo

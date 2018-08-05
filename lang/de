@@ -1,9 +1,8 @@
 # English localization file for Sparky Users.
 # Copyright 2015 Pawel "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/11
 # Under the GNU GPL v2
-# Last update 2016/02/28
+# Last update 2018/08/05 by pavroo
 # German translation by lunatic
-
 LOCAL1="SparkyLinux Benutzer, Gruppen und Passwortmanager"
 LOCAL2="Benutzer"
 LOCAL3="Dem System einen neuen Benutzer hinzufügen.\nGeben Sie den Spitznamen des neuen Benutzers ein.\nBenutzen Sie nur Kleinbuchstaben und Zahlen."
@@ -44,31 +43,24 @@ LOCAL37="wurde entfernt von"
 LOCAL38="Benutzer löschen"
 LOCAL39="Bitte einen Benutzer wählen, der vom System entfernt werden soll."
 LOCAL40="wurde vom System entfernt."
-
 ### sparky-users.desktop file to be translated to
 # Name[de_DE]=Benutzer, Gruppen und Passwörter
 # Comment[de_DE]=Verwalte Benutzer, Gruppen und Passwörter des Systems
-
 ### groupadd.desktop file to be translated to
 # Name[de_DE]=Gruppe hinzufügen
 # Comment[de_DE]=Füge dem System eine neue Gruppe hinzu
-
 ### user-add.desktop file to be translated to
 # Name[de_DE]=Benutzer hinzufügen
 # Comment[de_DE]=Füge dem System einen neuen Benutzer hinzu
-
 ### user-del.desktop file to be translated to
 # Name[de_DE]=Benutzer entfernen
 # Comment[de_DE]=Entferne Benutzer vom System
-
 ### user-add-to-group.desktop file to be translated to
 # Name[de_DE]=Benutzer einer Gruppe hinzufügen
 # Comment[de_DE]=Füge Benutzer der Systemgruppe hinzu
-
 ### check-groups.desktop file to be translated to
 # Name[de_DE]=Gruppen prüfen
 # Comment[de_DE]=Prüfe zu welcher Benutzergruppe er/sie gehört
-
 ### remuserfromgroup.desktop file to be translated to
 # Name[de_DE]=Benutzer aus einer Gruppe entfernen
 # Comment[de_DE]=Entferne einen Benutzer aus einer Gruppe

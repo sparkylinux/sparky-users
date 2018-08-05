@@ -1,8 +1,7 @@
 # English localization file for Sparky Users.
 # Copyright 2015 Pawel "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/11
 # Under the GNU GPL v2
-# Last update 2016/02/05
-
+# Last update 2018/08/05 by pavroo
 LOCAL1="SparkyLinux Users, Groups and Password Manager"
 LOCAL2="Users"
 LOCAL3="This lets you add a new user to the system.\nType a nick name of the new user.\nUse small leters and numbers only."
@@ -43,31 +42,24 @@ LOCAL37="has been removed from the"
 LOCAL38="Delete User"
 LOCAL39="Please select a user to remove from the system."
 LOCAL40="has been removed from the system."
-
 ### sparky-users.desktop file to be translated to
 # Name[en_US]=Users, Groups and Passwords
 # Comment[en_US]=Manage Users, Groups and Passwords of the System
-
 ### groupadd.desktop file to be translated to
 # Name[en_US]=Add Group
 # Comment[en_US]=Add a new group to the system
-
 ### user-add.desktop file to be translated to
 # Name[en_US]=Add User
 # Comment[en_US]=Add a new user to the system
-
 ### user-del.desktop file to be translated to
 # Name[en_US]=Remove User
 # Comment[en_US]=Remove an user from the system
-
 ### user-add-to-group.desktop file to be translated to
 # Name[en_US]=Add User To Group
 # Comment[en_US]=Add an user to the system's group
-
 ### check-groups.desktop file to be translated to
 # Name[en_US]=Check Groups
 # Comment[en_US]=Check user's groups he/she belongs to
-
 ### remuserfromgroup.desktop file to be translated to
 # Name[en_US]=Remove User From Group
 # Comment[en_US]=Remove user from a group

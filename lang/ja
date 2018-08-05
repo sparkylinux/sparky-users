@@ -1,9 +1,8 @@
 # Japanese localization file for Sparky Users.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/11
 # Under the GNU GPL v2
-# Last update 2017/01/06
+# Last update 2018/08/05 by pavroo
 # Translated to Japanese by BALLOON a.k.a. Fu-sen.
-
 LOCAL1="SparkyLinux ユーザ・グループ・パスワード管理"
 LOCAL2="ユーザー"
 LOCAL3="システムに新しいユーザーを追加することができます。\n新しいユーザーのニックネームを入力して下さい。\n小文字の英数のみ使用できます。"
@@ -44,31 +43,24 @@ LOCAL37="削除されました"
 LOCAL38="ユーザーの削除"
 LOCAL39="システムから削除するユーザーを選んで下さい。"
 LOCAL40="システムから削除されました。"
-
 ### sparky-users.desktop file to be translated too
 # Name[jp_JP]=ユーザー・グループ・パスワード
 # Comment[ja_JP]=システムのユーザー・グループ・パスワードを管理します
-
 ### groupadd.desktop file to be translated too
 # Name[ja_JP]=グループの追加
 # Comment[ja_JP]=システムに新しいグループを追加します
-
 ### user-add.desktop file to be translated too
 # Name[ja_JP]=ユーザーの追加
 # Comment[ja_JP]=システムに新しいユーザーを追加します
-
 ### user-del.desktop file to be translated too
 # Name[ja_JP]=ユーザーの削除
 # Comment[ja_JP]=システムからユーザーを削除します
-
 ### user-add-to-group.desktop file to be translated too
 # Name[ja_JP]=ユーザーをグループへ追加
 # Comment[ja_JP]=システムグループにユーザーを追加します
-
 ### check-groups.desktop file to be translated too
 # Name[ja_JP]=グループの確認
 # Comment[ja_JP]=ユーザーが所属しているグループを確認します
-
 ### remuserfromgroup.desktop file to be translated too
 # Name[ja_JP]=ユーザーをグループから削除
 # Comment[ja_JP]=グループからユーザーを削除します

@@ -1,8 +1,7 @@
 # File di localizzazione in Italiano per Sparky Users
 # Copyright 2015 Carlo Troiani <troianicarlo@gmail.com> 21/11/2015
 # Rilasciato sotto licenza GNU GPL v2
-# Ultimo aggiornamento 21/12/2015
-
+# Last update 2018/08/05 by pavroo
 LOCAL1="Gestore SparkyLinux di Utenti, Gruppi e Password"
 LOCAL2="Utenti"
 LOCAL3="Aggiungi un nuovo Utente al sistema.\nScrivi il nome del nuovo utente.\nPuoi utilizzare solamente lettere minuscole e numeri."
@@ -43,31 +42,24 @@ LOCAL37="è stato rimosso dal gruppo"
 LOCAL38="Cancella Utente"
 LOCAL39="Prego, seleziona l'utente da rimuovere dal sistema."
 LOCAL40="è stato rimosso dal sistema."
-
 ### sparky-users.desktop file to be translated too
 # Name[it_IT]=Utenti, Gruppi e Passwords
 # Comment[it_IT]=Gestisci gli Utenti, i Gruppi e le Password del Sistema
-
 ### groupadd.desktop file to be translated too
 # Name[it_IT]=Aggiungi Gruppo
 # Comment[it_IT]=Aggiungi un nuovo gruppo al sistema
-
 ### user-add.desktop file to be translated too
 # Name[it_IT]=Aggiungi Utente
 # Comment[it_IT]=Aggiungi un nuovo utente al sistema
-
 ### user-del.desktop file to be translated too
 # Name[it_IT]=Rimuovi Utente
 # Comment[it_IT]=Cancella un utente dal sistema
-
 ### user-add-to-group.desktop file to be translated too
 # Name[it_IT]=Aggiungi Utente al Gruppo
 # Comment[it_IT]=Aggiungi un utente ad uno dei gruppi del sistema
-
 ### check-groups.desktop file to be translated too
 # Name[it_IT]=Controlla i Gruppi
 # Comment[it_IT]=Controlla a quali gruppi appartiene un utente
-
 ### remuserfromgroup.desktop file to be translated too
 # Name[it_IT]=Rimuovi Utente da Gruppo
 # Comment[it_IT]=Rimuovi un utente da un gruppo
