@@ -2,8 +2,8 @@
 
 # Sparky Check Groups is a simply tool which lets you check any user's groups
 # Created by Paweł "pavroo" Pijanowski 2013/Oct/28
-# Copyright 2013-2018 under the GNU GPL2 License
-# Last updated 2018/08/05 by pavroo
+# Copyright 2013-2019 under the GNU GPL2 License
+# Last updated 2019/10/17 by pavroo
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-users"
@@ -13,6 +13,8 @@ elif [ "`cat /etc/default/locale | grep es`" != "" ]; then
 . $DEFLOCDIR/es
 elif [ "`cat /etc/default/locale | grep fr`" != "" ]; then
 . $DEFLOCDIR/fr
+elif [ "`cat /etc/default/locale | grep hu`" != "" ]; then
+. $DEFLOCDIR/hu
 elif [ "`cat /etc/default/locale | grep id_ID`" != "" ]; then
 . $DEFLOCDIR/id_ID
 elif [ "`cat /etc/default/locale | grep it`" != "" ]; then

@@ -3,7 +3,7 @@ Upstream Author(s):
     Paweł "pavroo" Pijanowski <pavroo@onet.eu>
 
 Files: * 
-    Copyright (C) 2013-2018 Paweł Pijanowski under GNU GPLv2
+    Copyright (C) 2013-2019 Paweł Pijanowski under GNU GPLv2
 
 Files: sparky-addusergroup is based on addusergroup
        sparky-remuserfromgroup is based on remuserfromgroup
@@ -21,6 +21,10 @@ File: es
 File: fr
     Copyright (C) 2016 hiver <hiver@club-internet.fr>
     License: GPL-2
+
+File: hu
+    Copyright 2019 Nemomen
+    License: GNU GPL-3
 
 File: id_ID
     Copyright (C) 2018 les kompie

@@ -1,0 +1,65 @@
+# Hungarian localization file for Sparky Users. (Translated by Nemomen)
+# Copyright 2015 Pawel "pavroo" Pijanowski <pavroo@onet.eu> 2015/11/11
+# Under the GNU GPL v2
+# Last update 2018/08/05 by pavroo
+LOCAL1="SparkyLinux Felhasználók, Csoportok és Jelszó-kezelő
+LOCAL2="Felhasználók”
+LOCAL3="Ez lehetővé teszi Önnek új felhasználó hozzáadását a rendszerhez.\nÍrja be az új felhasználó „becenevét” (nickname)!\nCsak kisbetűket és számokat használjon!
+LOCAL4="Adja hozzá a Felhasználót!”
+LOCAL5="Kilépés”
+LOCAL6="Nincs hozzáadott felhasználó! \nKattintson OK-t a kilépéshez!
+LOCAL7="Felhasználó”
+LOCAL8="már létezik – válasszon egy másikat!”
+LOCAL9="Kész! \n(Az) Új felhasználó”
+LOCAL10="hozzáadva a rendszerhez.”
+LOCAL11="Név”
+LOCAL12="Leírás”
+LOCAL13="Adjon hozzá a Csoporthoz Felhasználót!”
+LOCAL14="Kérjük, válassza ki melyik felhasználót akarja hozzáadni a csoporthoz!”
+LOCAL15="Kilépés”
+LOCAL16="Kilépés változtatások nélkül.”
+LOCAL17="Kérjük, válassza ki melyik csoporthoz akarja hozzáadni a felhasználót!”
+LOCAL18="hozzáadva a ...-hoz”
+LOCAL19="csoport”
+LOCAL20="Ez lehetővé teszi Önnek, hogy ellenőrizze melyik csoporthoz tartozik a felhasználó.\nÍrja be a létező felhasználó becenevét (nickname), amelyet ellenőrizni szeretne!”
+LOCAL21="Ellenőrizze a Csoportokat!”
+LOCAL22="Nincs ellenőrizve felhasználó!” \nKattintson OK-t a kilépéshez!”
+LOCAL23="Ellenőrizze a Csoportokat!”
+LOCAL24="A felhasználó a következő csoportokhoz tartozik:”
+LOCAL25="Kattintson OK-t a kilépéshez!”
+LOCAL26=" Ez lehetővé teszi Önnek új csoport hozzáadását a rendszerhez.\nÖn a következő csoportokhoz tartozik:”
+LOCAL27="Írja be a csoport nevét, amelyet hozzá kíván adni a rendszerhez!”
+LOCAL28="Adjon (hozzá) Csoportot!”
+LOCAL29="Nincs csoport hozzáadva! \nKattintson OK-t a kilépéshez!”
+LOCAL30="Csoport”
+LOCAL31="már létezik – válasszon egy másikat!”
+LOCAL32="Az új csoport:”
+LOCAL33="hozzáadva a rendszerhez.\nKattintson a kilépéshez!”
+LOCAL34="Távolítsa el (a) Felhasználót a Csoportból”
+LOCAL35="Kérjük, válassza ki, melyik felhasználót akarja eltávolítani a csoportból!”
+LOCAL36="Kérjük, válassza ki, melyik csoportból akarja eltávolítani a felhasználót!
+LOCAL37="eltávolítva a ...-ból”
+LOCAL38="Törölje a Felhasználót!”
+LOCAL39="Kérjük, válassza ki a rendszerből eltávolítandó felhasználót!”
+LOCAL40="eltávolítva a rendszerből.
+### sparky-users.desktop file to be translated to
+# Name[en_US]=Users, Groups and Passwords
+# Comment[en_US]=Manage Users, Groups and Passwords of the System
+### groupadd.desktop file to be translated to
+# Name[en_US]=Add Group
+# Comment[en_US]=Add a new group to the system
+### user-add.desktop file to be translated to
+# Name[en_US]=Add User
+# Comment[en_US]=Add a new user to the system
+### user-del.desktop file to be translated to
+# Name[en_US]=Remove User
+# Comment[en_US]=Remove an user from the system
+### user-add-to-group.desktop file to be translated to
+# Name[en_US]=Add User To Group
+# Comment[en_US]=Add an user to the system's group
+### check-groups.desktop file to be translated to
+# Name[en_US]=Check Groups
+# Comment[en_US]=Check user's groups he/she belongs to
+### remuserfromgroup.desktop file to be translated to
+# Name[en_US]=Remove User From Group
+# Comment[en_US]=Remove user from a group
